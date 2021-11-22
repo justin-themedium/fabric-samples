@@ -14,6 +14,7 @@ vendor/
 .vscode
 .gradle
 .idea
+tags
 # Dependency directories
 node_modules/
 # Ignore Gradle build output directory
