@@ -142,6 +142,7 @@ services:
         - ../scripts:/opt/gopath/src/github.com/hyperledger/fabric/peer/scripts/
         - ../configtx:/opt/gopath/src/github.com/hyperledger/fabric/peer/configtx/
         - ../../config:/opt/gopath/src/github.com/hyperledger/fabric/config/
+        - ../../asset-transfer-basic:/opt/gopath/src/github.com/hyperledger/fabric/asset-transfer-basic/
     depends_on:
       - peer0.org1.example.com
       - peer0.org2.example.com
