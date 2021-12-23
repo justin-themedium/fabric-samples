@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# imports  
+# imports
 . scripts/envVar.sh
 . scripts/utils.sh
 
